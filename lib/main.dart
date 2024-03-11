@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
           PointerDeviceKind.touch,
         },
       ),
-      home: MultiProvider(
+      home: MultiProvider( 
         providers: [
           Provider<Repository>(create: (context) => Repository()),
           ChangeNotifierProvider<FurnitureProvider>(
